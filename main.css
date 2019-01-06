@@ -23,7 +23,7 @@ body{
     to{ visibility: hidden;}
 }
 
-#tableslogan{ /**Table pictures**/
+body > #tableslogan{ /**Table pictures**/
     position:absolute;
 	padding: 20%;
 	top: 35%
