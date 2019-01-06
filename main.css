@@ -24,7 +24,7 @@ body{
 }
 
 #tableslogan{ /**Table pictures**/
-    position:relative;
+    position:absolute;
 	padding: 20%;
 	top: 35%
 	left: 0%;
