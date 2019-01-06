@@ -1,0 +1,107 @@
+body{
+    overflow: hidden;
+    position: relative;
+}
+
+#loading{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    z-index: 1;
+    visibility: hidden;
+    animation-name:loadd;
+    animation-duration: 0.5s; 
+    animation-fill-mode: backwards;
+    animation-iteration-count: 8;
+    animation-timing-function: linear;
+}
+table{
+    padding: 0%;
+    width: 100%;
+    visibility: hidden;
+    animation-name: anislogan2;
+    animation-delay: 4s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+td{
+    border: 3px solid grey;
+    width:15%;
+    text-align: center;
+}
+
+.set_img_1{
+    animation-name: set_img_1;
+    animation-delay: 5s;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes set_img_1{
+    0%{opacity: 1;}
+    50%{opacity: 0.2;}
+    100%{opacity: 1;}
+}
+
+.set_img_2{
+    animation-name: set_img_2;
+    animation-delay: 7s;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes set_img_2{
+    0%{opacity: 1;}
+    50%{opacity: 0.2;}
+    100%{opacity: 1;}
+}
+
+#slogan{
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+    text-align: center;
+    width: 40%;
+    position: relative;
+    margin:auto;
+    padding: 0%;
+    color: rgb(85, 85, 85);
+    text-shadow: 5px 5px 5px rgb(74, 112, 74);
+    visibility: hidden;
+    animation-name: anislogan;
+    animation-delay: 4s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;  
+}
+.boxes{
+    display: inherit;
+    border: 3px solid grey;
+    width: 15%;
+    height:10%;
+}
+
+@keyframes anislogan{
+    0%{visibility: hidden;}
+    5%{visibility: visible; font-size: 45px;}
+    50%{visibility: visible; transform: scale(1.1,1.8);}
+    100%{visibility: visible; font-size: 45px;}
+}
+
+@keyframes anislogan2{
+    from{visibility: hidden;}
+    to{visibility: visible;}
+}
+
+@keyframes loadd{
+    from{visibility:visible; transform: rotate(365deg);}
+    to{ visibility: hidden;}
+}
