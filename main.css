@@ -24,8 +24,11 @@ body{
 }
 
 #tableslogan{ /**Table pictures**/
-    position:unset;
+    position:relative;
 	padding: 20%;
+	top: 35%
+	left: 0%;
+	height: 30%;
 	width:80%;
     visibility: hidden;
     animation-name: anislogan2;
