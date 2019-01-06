@@ -1,6 +1,10 @@
+body{
+	margin:0px;
+	position:absolute;
+	overflow: hidden;
+}
 
-
-#loading{
+#loading{ /**Animation loading page**/
     position:absolute;
     top:0;
     left:0;
@@ -15,9 +19,15 @@
     animation-iteration-count: 8;
     animation-timing-function: linear;
 }
-table{
-    padding: 0%;
-    width: 100%;
+@keyframes loadd{
+    from{visibility:visible; transform: rotate(365deg);}
+    to{ visibility: hidden;}
+}
+
+#tableslogan{ /**Table pictures**/
+    position:unset;
+	padding: 20%;
+	width:80%;
     visibility: hidden;
     animation-name: anislogan2;
     animation-delay: 4s;
@@ -26,24 +36,18 @@ table{
 }
 td{
     border: 3px solid grey;
-    width:15%;
+	padding: 5px;
     text-align: center;
 }
 
-.set_img_1{
-    animation-name: set_img_1;
-    animation-delay: 5s;
+.set_img_1{			/**Set pictures for table + animation**/
+    animation-name: set_img_1;						 
+    animation-delay: 5s;								
     animation-duration: 5s;
     animation-fill-mode: both;
     animation-timing-function: ease-in;
     animation-direction: normal;
     animation-iteration-count: infinite;
-}
-
-@keyframes set_img_1{
-    0%{opacity: 1;}
-    50%{opacity: 0.2;}
-    100%{opacity: 1;}
 }
 
 .set_img_2{
@@ -56,6 +60,12 @@ td{
     animation-iteration-count: infinite;
 }
 
+@keyframes set_img_1{
+    0%{opacity: 1;}
+    50%{opacity: 0.2;}
+    100%{opacity: 1;}
+}
+
 @keyframes set_img_2{
     0%{opacity: 1;}
     50%{opacity: 0.2;}
@@ -66,7 +76,6 @@ td{
     font-family: 'Indie Flower', cursive;
     font-size: 55px;
     text-align: center;
-    width: 40%;
     position: relative;
     margin:auto;
     padding: 0%;
@@ -79,12 +88,7 @@ td{
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;  
 }
-.boxes{
-    display: inherit;
-    border: 3px solid grey;
-    width: 15%;
-    height:10%;
-}
+
 
 @keyframes anislogan{
     0%{visibility: hidden;}
@@ -98,7 +102,3 @@ td{
     to{visibility: visible;}
 }
 
-@keyframes loadd{
-    from{visibility:visible; transform: rotate(365deg);}
-    to{ visibility: hidden;}
-}
