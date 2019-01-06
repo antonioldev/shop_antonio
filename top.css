@@ -23,14 +23,12 @@
     background-color: green ;
     width: 33%;
     opacity: 0.3;
-    float: left;
 }
 #white{
     position: relative;
     height: 25%;
     width: 34%;
     background-color: white ;
-    float: left;
 }    
 #red{
     position: relative;
@@ -38,7 +36,6 @@
     background-color: red;
     width:33%;
     opacity: 0.3;
-    float: right;
 }
 @keyframes start{
     0%{opacity:0.3; height:100%;}
