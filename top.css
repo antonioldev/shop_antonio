@@ -19,8 +19,8 @@ html, body {
 }
 #white > img{
     position: relative;
-    top: 35px;
-    align-items: center;
+    top: 10%;
+    align-items: right;
     padding: 0%;
 }
 #green{
