@@ -25,7 +25,6 @@ html, body {
 }
 #green{
     position: relative;
-    height: 25%;
     background-color: green ;
     width: 33%;
     opacity: 0.3;
@@ -50,7 +49,7 @@ html, body {
     0%{opacity:0.3; height:100%;}
     50%{box-shadow: 10px 10px 5px grey;}
     100%{opacity:1; 
-	height:25%;
+	height:20%;
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	box-shadow: 10px 10px 5px grey;}
