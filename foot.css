@@ -1,0 +1,11 @@
+.footer{
+    position: unset;
+    padding: 0%;
+    margin: 0%;
+    height:15%;
+    left: 0px;
+    bottom: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 10px -10px 5px grey;
+}
