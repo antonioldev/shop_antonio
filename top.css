@@ -17,7 +17,7 @@
     padding: 0%;
 }
 #green{
-    position: static;
+    position: relative;
     height: 25%;
     background-color: green ;
     width: 33%;
@@ -25,14 +25,14 @@
     float: left;
 }
 #white{
-    position: static;
+    position: relative;
     height: 25%;
     width: 34%;
     background-color: white ;
     float: left;
 }    
 #red{
-    position: static;
+    position: relative;
     height: 25%;
     background-color: red;
     width:33%;
