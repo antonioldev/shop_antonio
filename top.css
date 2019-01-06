@@ -26,6 +26,7 @@ html, body {
 #green{
     position: relative;
     background-color: green ;
+	height: 200%;
     width: 33%;
     opacity: 0.3;
 	float:left;
