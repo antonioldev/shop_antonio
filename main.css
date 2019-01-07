@@ -20,7 +20,9 @@
 }
 
 body > #tableslogan{ /**Table pictures**/
+	display:block;
     position:relative;
+	table-layout:fixed;
 	top: 35%
 	left: 0%;
 	width:100%;
