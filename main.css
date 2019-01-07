@@ -34,7 +34,7 @@ body > #tableslogan{ /**Table pictures**/
 td{
     border: 3px solid grey;
 	padding: 5px;
-    text-align: center;
+	width: 15%;
 }
 
 .set_img_1{			/**Set pictures for table + animation**/
@@ -75,6 +75,7 @@ td{
     text-align: center;
     position: relative;
     margin:auto;
+	width:40%;
     padding: 0%;
     color: rgb(85, 85, 85);
     text-shadow: 5px 5px 5px rgb(74, 112, 74);
