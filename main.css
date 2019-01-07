@@ -42,7 +42,7 @@ body > #tableslogan{ /**Table pictures**/
 	width: 15%;**/
 }
 
-.set_img_1{	
+//**.set_img_1{	
 	display:block;
 	align:left;
     animation-name: set_img_1;						 
@@ -64,7 +64,7 @@ body > #tableslogan{ /**Table pictures**/
     animation-timing-function: ease-out;
     animation-direction: reverse;
     animation-iteration-count: infinite;
-}
+}**/
 
 @keyframes set_img_1{
     0%{opacity: 1;}
