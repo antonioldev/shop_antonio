@@ -20,7 +20,7 @@
 }
 
 body > #tableslogan{ /**Table pictures**/
-    position:relative;
+    position:absolute;
 	top: 35%
 	left: 0%;
 	width:100%;
@@ -39,7 +39,7 @@ body > #tableslogan{ /**Table pictures**/
 }
 
 .set_img_1{			/**Set pictures for table + animation**/
-	position: relative;
+	position: absolute;
     animation-name: set_img_1;						 
     animation-delay: 5s;								
     animation-duration: 5s;
