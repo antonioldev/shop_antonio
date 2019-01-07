@@ -42,7 +42,8 @@ body > #tableslogan{ /**Table pictures**/
 	width: 15%;
 }
 
-.set_img_1{			
+.set_img_1{	
+	display:block;
     animation-name: set_img_1;						 
     animation-delay: 5s;								
     animation-duration: 5s;
