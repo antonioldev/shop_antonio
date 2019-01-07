@@ -34,7 +34,7 @@ body > #tableslogan{ /**Table pictures**/
 #images{
 	position
     border: 3px solid grey;
-	padding: 5px;
+	padding: 0px;
 	width: 15%;
 }
 .images2{
@@ -82,7 +82,6 @@ body > #tableslogan{ /**Table pictures**/
     position: relative;
     margin:auto;
 	width:40%;
-    padding: 0px;
     color: rgb(85, 85, 85);
     text-shadow: 5px 5px 5px rgb(74, 112, 74);
     visibility: hidden;
