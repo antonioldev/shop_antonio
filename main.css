@@ -50,6 +50,7 @@ body > #tableslogan{ /**Table pictures**/
 }
 
 .set_img_2{
+	position:relative;
     animation-name: set_img_2;
     animation-delay: 7s;
     animation-duration: 4s;
