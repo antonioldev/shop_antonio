@@ -24,7 +24,6 @@ body > #tableslogan{ /**Table pictures**/
 	top: 40%;
 	width:100%;
 	height: 40%;
-	direction: bottom;
     visibility: hidden;
     animation-name: anislogan2;
     animation-delay: 4s;
