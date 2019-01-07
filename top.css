@@ -21,9 +21,11 @@ html, body {
 }
 img{
     position: absolute;
-    align-items: centre;
-	left:45%;
-	top:0px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
     padding: 0%;
 	z-index: 2;
 }
