@@ -39,7 +39,7 @@ body > #tableslogan{ /**Table pictures**/
 }
 
 .set_img_1{			/**Set pictures for table + animation**/
-	position: absolute;
+	object-fill:cover;
     animation-name: set_img_1;						 
     animation-delay: 5s;								
     animation-duration: 5s;
