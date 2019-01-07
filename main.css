@@ -44,6 +44,7 @@ body > #tableslogan{ /**Table pictures**/
 }
 
 .set_img_1{	
+	height:50%;
     animation-name: set_img_1;						 
     animation-delay: 5s;								
     animation-duration: 5s;
@@ -54,6 +55,7 @@ body > #tableslogan{ /**Table pictures**/
 }
 
 .set_img_2{
+	height:50%;
     animation-name: set_img_2;
     animation-delay: 7s;
     animation-duration: 4s;
