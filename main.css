@@ -43,7 +43,8 @@ body > #tableslogan{ /**Table pictures**/
 }
 
 .set_img_1{	
-	position:align;
+	position:absolute;
+	display:block;
     animation-name: set_img_1;						 
     animation-delay: 5s;								
     animation-duration: 5s;
