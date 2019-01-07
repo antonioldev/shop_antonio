@@ -31,7 +31,7 @@ body > #tableslogan{ /**Table pictures**/
     animation-fill-mode: forwards;
 	border: 3px solid grey;
 }
-.images{
+#images{
 	position:relative;
     border: 3px solid grey;
 	padding: 5px;
