@@ -31,7 +31,7 @@ body > #tableslogan{ /**Table pictures**/
     animation-fill-mode: forwards;
 	border: 3px solid grey;
 }
-/**.images{
+.images{
     border: 3px solid grey;
 	padding: 5px;
 	width: 15%;
@@ -39,7 +39,7 @@ body > #tableslogan{ /**Table pictures**/
 .images2{
     border: 3px solid grey;
 	padding: 5px;
-	width: 15%;**/
+	width: 15%;
 }
 
 .set_img_1{	
