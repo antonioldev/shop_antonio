@@ -31,7 +31,7 @@ body > #tableslogan{ /**Table pictures**/
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
-table > td{
+ td{
     border: 3px solid grey;
 	padding: 5px;
 	width: 15%;
