@@ -19,11 +19,12 @@
     to{ visibility: hidden;}
 }
 
-body > #tableslogan{ /**Table pictures**/
-	position:relative;
-	top: 35%;
+table{ /**Table pictures**/
+	position:absolute;
+	top: 40%;
 	width:100%;
 	height: 30%;
+
     visibility: hidden;
     animation-name: anislogan2;
     animation-delay: 4s;
@@ -43,8 +44,6 @@ body > #tableslogan{ /**Table pictures**/
 }
 
 .set_img_1{	
-	position:absolute;
-	display:block;
     animation-name: set_img_1;						 
     animation-delay: 5s;								
     animation-duration: 5s;
@@ -55,7 +54,6 @@ body > #tableslogan{ /**Table pictures**/
 }
 
 .set_img_2{
-	position:align;
     animation-name: set_img_2;
     animation-delay: 7s;
     animation-duration: 4s;
