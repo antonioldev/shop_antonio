@@ -45,7 +45,7 @@ body > #tableslogan{ /**Table pictures**/
 	width: 15%;
 }
 
-.set_img_1{			/**Set pictures for table + animation**/
+/**.set_img_1{			
 	object-fill:cover;
     animation-name: set_img_1;						 
     animation-delay: 5s;								
@@ -54,9 +54,9 @@ body > #tableslogan{ /**Table pictures**/
     animation-timing-function: ease-in;
     animation-direction: normal;
     animation-iteration-count: infinite;
-}
+}**/
 
-.set_img_2{
+/**.set_img_2{
 	position:relative;
     animation-name: set_img_2;
     animation-delay: 7s;
@@ -65,7 +65,7 @@ body > #tableslogan{ /**Table pictures**/
     animation-timing-function: ease-out;
     animation-direction: reverse;
     animation-iteration-count: infinite;
-}
+}**/
 
 @keyframes set_img_1{
     0%{opacity: 1;}
