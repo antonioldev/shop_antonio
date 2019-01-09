@@ -32,7 +32,7 @@ img{
 #green{
     position: relative;
     background-color: green ;
-	height: 25%;
+	height: 20%;
     width: 33%;
     opacity: 0.3;
 	float:left;
@@ -40,7 +40,7 @@ img{
 }
 #white{
     position: relative;
-    height: 25%;
+    height: 20%;
     width: 34%;
     background-color: white ;
 	float:left;
@@ -52,7 +52,7 @@ img{
 }    
 #red{
     position: relative;
-    height: 25%;
+    height: 20%;
     background-color: red;
     width:33%;
     opacity: 0.3;
