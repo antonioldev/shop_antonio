@@ -28,8 +28,8 @@ nav > a {
 	text-decoration:none;
 }
 
-nav > #one:hover + #one{
-	text-decoration: underline overline !important;
+nav > .one:hover + #one{
+	text-decoration: underline overline ;
 }
 
 nav > #two:hover + #two{
