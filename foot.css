@@ -9,5 +9,7 @@ body > .footer{
     bottom: 0px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    box-shadow: 10px -10px 5px grey;
+    border-style: dashed;
+	border-width: 5px;
+	border-color: grey;
 }
