@@ -9,7 +9,8 @@ body > .footer{
     bottom: 0px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    border-style: dashed;
-	border-width: 5px;
+    border-top-style: dashed;
+	border-width: 2px;
 	border-color: grey;
+	z-index: 0;
 }
