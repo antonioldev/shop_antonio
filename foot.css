@@ -28,18 +28,26 @@ nav > a {
 	text-decoration:none;
 }
 
-nav > .one:hover + #one{
+nav > #one:hover{
 	text-decoration: underline overline ;
 }
 
-nav > #two:hover + #two{
+nav > #two:hover{
 	text-decoration: underline overline;
 }
 
-nav > #three:hover + #three{
+nav > #three:hover{
 	text-decoration: underline overline;
 }
 
-nav > #four:hover + #four{
+nav > #four:hover{
 	text-decoration: underline overline;
+}
+
+#follow{
+	display:block;
+	text-align:center;
+	color:grey;
+	text-decoration:bold;
+	font-size: 25px;
 }
