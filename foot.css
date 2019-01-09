@@ -13,4 +13,21 @@ body > .footer{
 	border-width: 2px;
 	border-color: grey;
 	z-index: 0;
+
+}
+
+.footer > nav{
+	text-align:center;
+	font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
+
+nav > a {
+	margin-left:20px;
+	color:grey;
+	text-decoration:none;
+}
+
+#one:hover + #one{
+	text-decoration: underline overline;
 }
