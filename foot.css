@@ -63,6 +63,8 @@ nav > #four:hover{
 }
 
 #copyright{
+	position: absolute;
+	bottom: 20%;
 	margin:0px;
 	white-space:nowrap;
 	text-align:right;
